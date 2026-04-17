@@ -1,0 +1,17 @@
+name: CD
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy to GCP (Placeholder)
+        run: |
+          echo "Deploying to GCP..."
+          # Add your GCP deployment commands here
+          # For example, using gcloud CLI
+          # gcloud app deploy app.yaml --project your-project-id

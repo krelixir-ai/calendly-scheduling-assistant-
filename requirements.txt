@@ -1,0 +1,9 @@
+PyYAML
+fastapi
+uvicorn[standard]
+pydantic
+langchain-core
+langchain-google-vertexai
+google-cloud-aiplatform
+chromadb
+python-dotenv
